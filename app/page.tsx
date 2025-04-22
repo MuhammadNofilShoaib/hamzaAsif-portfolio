@@ -1,103 +1,234 @@
+import Button from "@/components/Button";
+import Feedbacks from "@/components/Feedbacks";
 import Image from "next/image";
+import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa";
+
+const creators = [
+  {
+    name: "Camerxn Breen",
+    image: "/1.jpg",
+  },
+  {
+    name: "Joe Butler",
+    image: "/2.jpg",
+  },
+  {
+    name: "Mel Cobian",
+    image: "/3.jpg",
+  },
+  {
+    name: "Twin Dentists",
+    image: "/4.jpg",
+  },
+  {
+    name: "Erick Ronaldo",
+    image: "/5.jpg",
+  },
+  {
+    name: "John Savage Crypto",
+    image: "/6.jpg",
+  },
+];
+
+const videos = [
+  {
+    title: "The Best Type Of Property You Should Buy in Dubai 2025",
+    embedUrl: "https://www.youtube.com/embed/X6Id4lE6knY?si=mL-9PruKvMHIixka",
+    tags: ["Video Editing", "Motion Graphics"],
+  },
+  {
+    title: "How to Grow an Instagram Account from SCRATCH in 2025 (With ZERO Followers!)",
+    embedUrl: "https://www.youtube.com/embed/h2KCXR88FIc?si=U3RkPbLvSdcPg3uS",
+    tags: ["Video Editing", "Motion Graphics"],
+
+  },
+  {
+    title: "Steal This: The Exact Playbook 3 Fitness Creators Used to Blow Up",
+    embedUrl: "https://www.youtube.com/embed/Rlftu8i6gLY?si=gt9jJsXPN6c5UYjz",
+    tags: ["Video Editing", "Motion Graphics"],
+  },
+
+  // Add more videos here as needed
+];
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  return (
+    <div className=" space-y-[64px]">
+
+      <section className="flex flex-col justify-center items-center gap-10 text-center relative px-4 overflow-hidden h-[70vh] md:h-screen bg-[url('/bg.png')] bg-cover bg-center w-full rounded-b-4xl">
+
+        {/* Subheadline */}
+        <div className="flex justify-center items-center ">
+          <div className="w-[120px] h-[2px] bg-gradient-to-r from-black to-blue-600"></div>
+          <div className="rounded-full">
+            <div className="font-[16px] text-[12px] md:text-xl bg-black px-4 py-1 rounded-full text-transparent bg-clip-text bg-gradient-to-r whitespace-nowrap from-white to-blue-500">
+              Explode Your Channel Growth
+            </div>
+          </div>
+          <div className="w-[120px] h-[2px] bg-gradient-to-l from-black to-blue-600"></div>
+
+
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        {/* Headline */}
+        <h1 className="text-[30px] md:text-[48px] md:w-1/2 sm:text-5xl md:text-6xl font-extrabold leading-[2.5rem] capitalize md:leading-tight text-center text-white md:bg-gradient-to-b from-gray-800 via-white to-gray-800 bg-clip-text md:text-transparent">
+        Helping creators boost watch time with
+        high retention <span className="bg-blue-600 text-white px-3 py-1 rounded-md inline-block italic">
+        edits
+          </span>
+        </h1>
+
+        {/* CTA Button */}
+        <div className="">
+          <Button />
+
+        </div>
+
+      </section>
+
+      <hr className="opacity-30" />
+
+      <section id="about" className="bg-black flex flex-col gap-5 justify-center items-center mx-auto text-center text-[18px] md:w-[80%] lg:w-1/2 h-[50vh]">
+      
+      <h2 className="text-5xl md:text-5xl font-semibold mb-5 capitalize text-center">About me:</h2>
+
+        <h1 className="text-lg md:text-2xl">I&apos;m Hamza, a video editor with over 4 years of experience.
+          I specialize in YouTube content that captures attention and boosts retention.
+          Using sharp cuts, motion graphics, and sound design, I bring stories to life.
+          Every project is crafted to engage, perform, and stand out on the platform.
+          I’m all about quality work, delivered on time.
+          Let’s make your next video unforgettable!
+        </h1>
+        <Link className="text-lg md:text-[30px] font-semibold flex justify-center items-center gap-3 underline underline-offset-8 hover:no-underline duration-300" href="https://drive.google.com/drive/folders/1Pr60kkPSBncs_4wNHeEwNXM6BQPPyb3b?usp=drive_link">See Portfolio <span className="hover:-rotate-45 duration-300 ease-in-out"><FaArrowRight size={20} /></span></Link>
+
+      </section>
+
+      <hr className="opacity-30" />
+
+
+      <section  className="py-16 px-4 bg-black flex flex-col justify-center items-center gap-10 text-white text-center">
+        <h2 className="text-5xl font-semibold mb-10">Creators I worked with:</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-[768px] mx-auto">
+          {creators.map((creator) => (
+            <div key={creator.name} className="flex flex-col gap-4 items-center justify-center">
+
+              <Image
+                src={creator.image}
+                alt={creator.name}
+                width={260}
+                height={260}
+                className="object-cover rounded-full border border-white hover:shadow-[0px_0px_60px_#ffffff] duration-200 ease-in-out"
+              />
+
+              <p className="text-lg font-medium ">{creator.name}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <hr className="opacity-30" />
+
+      <section id="showcases" className="px-4 py-10">
+        <div className="flex flex-col justify-center items-center gap-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-6 text-center">Selected Projects:</h2>
+
+          {videos.map((vid) => (
+            <div
+              key={vid.title}
+              className="flex flex-col justify-center items-start gap-4 rounded-xl bg-white p-2 sm:p-3 shadow-md w-full max-w-[1000px]"
+            >
+              <div className="w-full aspect-video">
+                <iframe
+                  className="rounded-xl w-full h-full"
+                  src={vid.embedUrl}
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+              </div>
+
+              <h3 className="text-lg sm:text-xl font-medium text-black">
+                {vid.title.length > 20 ? vid.title.slice(0, 20) + "..." : vid.title}
+              </h3>
+
+              <div className="flex flex-wrap gap-2">
+                {vid.tags.map((tag, tagIndex) => (
+                  <span
+                    key={tagIndex}
+                    className="bg-gray-700 text-white text-sm px-3 py-1 rounded-xl"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+
+          <div
+            className="flex flex-col justify-center items-start gap-4 rounded-xl bg-white p-2 sm:p-3 shadow-md w-full max-w-[1000px]"
+          >
+            <div className="w-full aspect-video">
+              <iframe
+                className="rounded-xl w-full h-full"
+                src="https://www.youtube.com/embed/EpQRDgi2Ttc?si=Kg0TKYNP-Mb-jjkG"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
+
+            <h3 className="text-lg sm:text-xl font-medium text-black">
+              BEST Video Editing Program to Use in 2025
+
+            </h3>
+
+            <div className="flex flex-wrap gap-2">
+
+              <span className="bg-gray-700 text-white text-sm px-3 py-1 rounded-xl">Video Editing</span>
+              <span className="bg-gray-700 text-white text-sm px-3 py-1 rounded-xl">Motion Graphics</span>
+
+
+            </div>
+          </div>
+
+
+          <Link
+            href="https://drive.google.com/drive/folders/1Pr60kkPSBncs_4wNHeEwNXM6BQPPyb3b?usp=drive_link"
+            className="text-xl sm:text-2xl font-semibold flex justify-center items-center gap-2 underline underline-offset-8 hover:no-underline duration-300"
+          >
+            See Portfolio{" "}
+            <span className="hover:-rotate-45 duration-300 ease-in-out">
+              <FaArrowRight size={20} />
+            </span>
+          </Link>
+        </div>
+      </section>
+
+
+      <hr className="opacity-30" />
+
+      <section id="testimonials" className="flex flex-col justify-center items-center">
+      <h2 className="text-5xl font-semibold mb-10 text-center">Don&apos;t listen to us, Listen to them...</h2>
+
+        <Feedbacks />
+        <Feedbacks />
+
+      </section>
+
+      <hr className="opacity-30" />
+
+      <section id="contact" className="flex justify-center items-center">
+        <iframe className="flex justify-center items-center w-[800px] h-[1000px] rounded-xl" src="https://calendly.com/hamzaasifworks/30min"></iframe>
+
+      </section>
+
+      <hr className="opacity-30" />
+
     </div>
+
   );
 }
