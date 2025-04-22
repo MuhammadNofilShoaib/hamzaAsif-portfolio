@@ -23,8 +23,8 @@ const Header = () => {
                 <div className="relative rounded-xl p-[1px] bg-gradient-to-r from-white/30 via-blue-600 to-white/30">
                     <div className="flex justify-center items-center gap-3 px-2 sm:px-6 py-2 sm:py-1.5 rounded-xl bg-black">
                         <span className="size-[10px] sm:size-[12px] rounded-full bg-blue-600 blur-[2px] animate-pulse">.</span>
-                        <span className="text-[12px] whitespace-nowrap text-white">1 spot left</span>
-                        <span className="text-white/50">|</span>
+                        <span className="text-[12px] text-white/70 whitespace-nowrap">1 spot left</span>
+                        <span className="text-white/80">|</span>
                         <Link href="https://calendly.com/hamzaasifworks/30min" className="flex justify-center items-center gap-2 sm:gap-3 font-bold whitespace-nowrap text-[11px] hover:scale-95 hover:animate-pulse duration-300 ease-in-out">
                             Book a Call <span><FaArrowRight size={11} /></span>
                         </Link>
