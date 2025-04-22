@@ -7,27 +7,27 @@ import { FaArrowRight } from "react-icons/fa";
 const creators = [
   {
     name: "Camerxn Breen",
-    image: "/1.jpg",
+    image: "/1 (1).jpg",
   },
   {
     name: "Joe Butler",
-    image: "/2.jpg",
+    image: "/2 (1).jpg",
   },
   {
     name: "Mel Cobian",
-    image: "/3.jpg",
+    image: "/3 (1).jpg",
   },
   {
     name: "Twin Dentists",
-    image: "/4.jpg",
+    image: "/4 (1).jpg",
   },
   {
     name: "Erick Ronaldo",
-    image: "/5.jpg",
+    image: "/5 (1).jpg",
   },
   {
     name: "John Savage Crypto",
-    image: "/6.jpg",
+    image: "/6 (1).jpg",
   },
 ];
 
