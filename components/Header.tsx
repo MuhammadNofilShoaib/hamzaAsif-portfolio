@@ -25,7 +25,7 @@ const Header = () => {
                         <span className="size-[10px] sm:size-[12px] rounded-full bg-blue-600 blur-[2px] animate-pulse">.</span>
                         <span className="text-[12px] text-white/70 whitespace-nowrap">1 spot left</span>
                         <span className="text-white/80">|</span>
-                        <Link href="https://calendly.com/hamzaasifworks/30min" className="flex justify-center items-center gap-2 sm:gap-3 font-bold whitespace-nowrap text-[11px] hover:scale-95 hover:animate-pulse duration-300 ease-in-out">
+                        <Link href="https://calendly.com/hamzaasifworks/30min" className="flex justify-center items-center gap-2 sm:gap-3 text-white font-bold whitespace-nowrap text-[11px] hover:scale-95 hover:animate-pulse duration-300 ease-in-out">
                             Book a Call <span><FaArrowRight size={11} /></span>
                         </Link>
                     </div>
