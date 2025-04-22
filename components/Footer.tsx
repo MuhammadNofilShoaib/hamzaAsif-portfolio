@@ -17,7 +17,7 @@ const links = [
 
 function Footer() {
   return (
-    <div className=" flex-col flex justify-center items-center py-10 gap-10">
+    <div className=" flex-col flex justify-center items-center py-10 gap-10 text-white">
         <div className='flex justify-center gap-10 items-center'>
       {
         links.map((link) => (

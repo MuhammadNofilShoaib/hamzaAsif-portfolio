@@ -92,16 +92,16 @@ export default function Home() {
 
       <section id="about" className="bg-black flex flex-col gap-5 justify-center items-center mx-auto text-center text-[18px] md:w-[80%] lg:w-1/2 h-[50vh]">
       
-      <h2 className="text-5xl md:text-5xl font-semibold mb-5 capitalize text-center">About me:</h2>
+      <h2 className="text-5xl md:text-5xl font-semibold mb-5 capitalize text-center text-white">About me:</h2>
 
-        <h1 className="text-lg md:text-2xl">I&apos;m Hamza, a video editor with over 4 years of experience.
+        <h1 className="text-lg md:text-2xl text-white">I&apos;m Hamza, a video editor with over 4 years of experience.
           I specialize in YouTube content that captures attention and boosts retention.
           Using sharp cuts, motion graphics, and sound design, I bring stories to life.
           Every project is crafted to engage, perform, and stand out on the platform.
           I’m all about quality work, delivered on time.
           Let’s make your next video unforgettable!
         </h1>
-        <Link className="text-lg md:text-[30px] font-semibold flex justify-center items-center gap-3 underline underline-offset-8 hover:no-underline duration-300" href="https://drive.google.com/drive/folders/1Pr60kkPSBncs_4wNHeEwNXM6BQPPyb3b?usp=drive_link">See Portfolio <span className="hover:-rotate-45 duration-300 ease-in-out"><FaArrowRight size={20} /></span></Link>
+        <Link className="text-lg text-white md:text-[30px] font-semibold flex justify-center items-center gap-3 underline underline-offset-8 hover:no-underline duration-300" href="https://drive.google.com/drive/folders/1Pr60kkPSBncs_4wNHeEwNXM6BQPPyb3b?usp=drive_link">See Portfolio <span className="hover:-rotate-45 duration-300 ease-in-out"><FaArrowRight size={20} /></span></Link>
 
       </section>
 
@@ -109,7 +109,7 @@ export default function Home() {
 
 
       <section  className="py-16 px-4 bg-black flex flex-col justify-center items-center gap-10 text-white text-center">
-        <h2 className="text-5xl font-semibold mb-10">Creators I worked with:</h2>
+        <h2 className="text-5xl font-semibold mb-10 text-white">Creators I worked with:</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-[768px] mx-auto">
           {creators.map((creator) => (
             <div key={creator.name} className="flex flex-col gap-4 items-center justify-center">
@@ -122,7 +122,7 @@ export default function Home() {
                 className="object-cover rounded-full border border-white hover:shadow-[0px_0px_60px_#ffffff] duration-200 ease-in-out"
               />
 
-              <p className="text-lg font-medium ">{creator.name}</p>
+              <p className="text-lg font-medium text-white">{creator.name}</p>
             </div>
           ))}
         </div>
@@ -132,7 +132,7 @@ export default function Home() {
 
       <section id="showcases" className="px-4 py-10">
         <div className="flex flex-col justify-center items-center gap-12">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-6 text-center">Selected Projects:</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-6 text-center text-white">Selected Projects:</h2>
 
           {videos.map((vid) => (
             <div
@@ -198,7 +198,7 @@ export default function Home() {
 
           <Link
             href="https://drive.google.com/drive/folders/1Pr60kkPSBncs_4wNHeEwNXM6BQPPyb3b?usp=drive_link"
-            className="text-xl sm:text-2xl font-semibold flex justify-center items-center gap-2 underline underline-offset-8 hover:no-underline duration-300"
+            className="text-xl sm:text-2xl font-semibold flex justify-center items-center gap-2 text-white underline underline-offset-8 hover:no-underline duration-300"
           >
             See Portfolio{" "}
             <span className="hover:-rotate-45 duration-300 ease-in-out">
@@ -212,7 +212,7 @@ export default function Home() {
       <hr className="opacity-30" />
 
       <section id="testimonials" className="flex flex-col justify-center items-center">
-      <h2 className="text-5xl font-semibold mb-10 text-center">Don&apos;t listen to us, Listen to them...</h2>
+      <h2 className="text-5xl font-semibold mb-10 text-center text-white">Don&apos;t listen to us, Listen to them...</h2>
 
         <Feedbacks />
         <Feedbacks />
