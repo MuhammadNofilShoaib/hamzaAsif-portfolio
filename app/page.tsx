@@ -52,6 +52,21 @@ const videos = [
   // Add more videos here as needed
 ];
 
+const companies = [
+  {
+    name: 'Illumiflow',
+    logo: '/if.png',
+  },
+  {
+    name: 'Kiierr',
+    logo: '/k.png',
+  },
+  {
+    name: 'Smile White',
+    logo: '/sm.png',
+  },
+];
+
 export default function Home() {
 
   return (
@@ -74,9 +89,9 @@ export default function Home() {
 
         {/* Headline */}
         <h1 className="text-[30px] md:text-[48px] md:w-1/2 sm:text-5xl md:text-6xl font-extrabold leading-[2.5rem] capitalize md:leading-tight text-center text-white md:bg-gradient-to-b from-gray-800 via-white to-gray-800 bg-clip-text md:text-transparent">
-        Helping creators boost watch time with
-        high retention <span className="bg-blue-600 text-white px-3 py-1 rounded-md inline-block italic">
-        edits
+          Helping creators boost watch time with
+          high retention <span className="bg-blue-600 text-white px-3 py-1 rounded-md inline-block italic">
+            edits
           </span>
         </h1>
 
@@ -91,8 +106,8 @@ export default function Home() {
       <hr className="opacity-30" />
 
       <section id="about" className="bg-black flex flex-col gap-5 justify-center items-center mx-auto text-center text-[18px] md:w-[80%] lg:w-1/2 h-[50vh]">
-      
-      <h2 className="text-5xl md:text-5xl font-semibold mb-5 capitalize text-center text-white">About me:</h2>
+
+        <h2 className="text-5xl md:text-5xl font-semibold mb-5 capitalize text-center text-white">About me:</h2>
 
         <h1 className="text-lg md:text-2xl text-white">I&apos;m Hamza, a video editor with over 4 years of experience.
           I specialize in YouTube content that captures attention and boosts retention.
@@ -108,7 +123,7 @@ export default function Home() {
       <hr className="opacity-30" />
 
 
-      <section  className="py-16 px-4 bg-black flex flex-col justify-center items-center gap-10 text-white text-center">
+      <section className="py-16 px-4 bg-black flex flex-col justify-center items-center gap-10 text-white text-center">
         <h2 className="text-5xl font-semibold mb-10 text-white">Creators I worked with:</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-[768px] mx-auto">
           {creators.map((creator) => (
@@ -129,6 +144,31 @@ export default function Home() {
       </section>
 
       <hr className="opacity-30" />
+
+      <section className="py-16 bg-black text-white text-center">
+        <h2 className="text-2xl md:text-4xl mx-2 font-bold mb-12">
+          Some of the biggest companies I have worked with:
+        </h2>
+        <div className="flex flex-wrap justify-center gap-12">
+          {companies.map((company, index) => (
+            <div key={index} className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 bg-white border-white hover:shadow-[0px_0px_60px_#ffffff] transition-shadow duration-300 ease-in-out">
+                <Image
+                  src={company.logo}
+                  alt={company.name}
+                  width={160}
+                  height={160}
+                  className="object-cover  transition-transform duration-300 ease-in-out hover:scale-110"
+                />
+              </div>
+              <p className="mt-4 text-sm md:text-base">{company.name}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <hr className="opacity-30" />
+
 
       <section id="showcases" className="px-4 py-10">
         <div className="flex flex-col justify-center items-center gap-12">
@@ -212,7 +252,7 @@ export default function Home() {
       <hr className="opacity-30" />
 
       <section id="testimonials" className="flex flex-col justify-center items-center">
-      <h2 className="text-5xl font-semibold mb-10 text-center text-white">Don&apos;t listen to us, Listen to them...</h2>
+        <h2 className="text-5xl font-semibold mb-10 text-center text-white">Don&apos;t listen to us, Listen to them...</h2>
 
         <Feedbacks />
         <Feedbacks />
