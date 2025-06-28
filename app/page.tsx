@@ -1,4 +1,5 @@
 import Button from "@/components/Button";
+import CaseStudySection from "@/components/CaseStudySection";
 import Feedbacks from "@/components/Feedbacks";
 import Image from "next/image";
 import Link from "next/link";
@@ -121,6 +122,13 @@ export default function Home() {
       </section>
 
       <hr className="opacity-30" />
+
+      <section>
+        <CaseStudySection/>
+      </section>
+
+      <hr className="opacity-30" />
+
 
 
       <section className="py-16 px-4 bg-black flex flex-col justify-center items-center gap-10 text-white text-center">
