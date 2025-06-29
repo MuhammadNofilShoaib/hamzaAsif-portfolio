@@ -4,7 +4,9 @@ import React from "react";
 
 type CaseStudy = {
     client: string;
-    videoTitle: string;
+    channelName: string;
+    channelLink: string;
+    subscribers?: string;
     problem: string;
     solution: string;
     result: string;
@@ -17,7 +19,9 @@ type CaseStudy = {
 const caseStudies: CaseStudy[] = [
     {
         client: "One Message Foundation",
-        videoTitle: "Dawah Shorts Video (YouTube)",
+        channelName: "One Message Foundation",
+        channelLink: "https://www.youtube.com/@OneMessageFoundation",
+        subscribers: "2.3M subscribers",
         problem:
             "Client’s YouTube Shorts were not gaining significant traction, with most videos averaging under 10,000 views.",
         solution:
@@ -28,11 +32,13 @@ const caseStudies: CaseStudy[] = [
         link: "https://youtube.com/shorts/O2NPZbiN0bY?si=ecxCp0B4J8OQpf-n",
         testimonial:
             "“Your editing took our content to a whole new level. The engagement blew up!”",
-        image: "/1case.png"
+        image: "/case1f.png"
     },
     {
         client: "Erick Ronaldo",
-        videoTitle: "Motivational Reel (Instagram)",
+        channelName: "Erick Ronaldo",
+        channelLink: "https://www.youtube.com/@ErickRonaldo",
+        subscribers: "386K followers",
         problem:
             "Erick’s Instagram reels usually received low traction, stuck around 2–3K views.",
         solution:
@@ -43,8 +49,7 @@ const caseStudies: CaseStudy[] = [
         link: "https://www.instagram.com/reel/DHuGgtbxQrM/?utm_source=ig_web_copy_link",
         testimonial:
             "“The response was insane. Everyone loved the pacing and look — best reel performance so far!”",
-        image: "/2case.png"
-
+        image: "/case2f.png"
     },
 ];
 
@@ -62,7 +67,7 @@ const CaseStudySection = () => {
                             key={index}
                             className="flex flex-col md:flex-row items-center gap-8 bg-zinc-900 rounded-2xl p-6 shadow-md hover:shadow-lg transition-all duration-300"
                         >
-                            {/* Image Placeholder */}
+                            {/* Image */}
                             <div className="w-full md:w-1/2 overflow-x-auto border-2 border-blue-500 rounded-xl">
                                 <div className="min-w-[600px] md:min-w-0 h-64 bg-black flex items-center justify-center">
                                     <Image
@@ -75,15 +80,26 @@ const CaseStudySection = () => {
                                 </div>
                             </div>
 
-
-                            {/* Text Content */}
+                            {/* Text */}
                             <div className="w-full md:w-1/2 space-y-3">
                                 <h3 className="text-2xl font-semibold text-blue-500">
-                                    {study.videoTitle}
+                                    <a
+                                        href={study.channelLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="hover:underline"
+                                    >
+                                        {study.channelName}
+                                    </a>
                                 </h3>
                                 <p>
                                     <strong>Client:</strong> {study.client}
                                 </p>
+                                {study.subscribers && (
+                                    <p>
+                                        <strong>Subscribers:</strong> {study.subscribers}
+                                    </p>
+                                )}
                                 <p>
                                     <strong>Problem:</strong> {study.problem}
                                 </p>

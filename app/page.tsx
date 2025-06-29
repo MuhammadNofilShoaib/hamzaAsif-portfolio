@@ -30,6 +30,18 @@ const creators = [
     name: "John Savage Crypto",
     image: "/6up.jpg",
   },
+  {
+    name: "One Message Foundation",
+    image: "/omf.jpg",
+  },
+   {
+    name: "Chris Kubby",
+    image: "/ck.jpg",
+  },
+  {
+    name: "kellan Reck",
+    image: "/kr.jpg",
+  },
 ];
 
 const videos = [
