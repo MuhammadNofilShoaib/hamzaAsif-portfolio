@@ -21,7 +21,7 @@ const caseStudies: CaseStudy[] = [
         client: "One Message Foundation",
         channelName: "One Message Foundation",
         channelLink: "https://www.youtube.com/@OneMessageFoundation",
-        subscribers: "2.3M subscribers",
+        subscribers: "1.28M subscribers",
         problem:
             "Client’s YouTube Shorts were not gaining significant traction, with most videos averaging under 10,000 views.",
         solution:
