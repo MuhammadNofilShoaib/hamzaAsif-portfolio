@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Hamza Asif Portfolio",
     images: [
       {
-        url: "https://hamzaedits.vercel.app/hamza.png", // your preferred image URL
+        url: "https://hamzaedits.vercel.app/ha.png", // your preferred image URL
         width: 1200,
         height: 630,
         alt: "Hamza Asif - Video Editor",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hamza Asif | Video Editor",
     description: "Helping creators boost watch time with high retention edits",
-    images: ["https://hamzaedits.vercel.app/hamza.png"],
+    images: ["https://hamzaedits.vercel.app/ha.png"],
   },
 };
 
