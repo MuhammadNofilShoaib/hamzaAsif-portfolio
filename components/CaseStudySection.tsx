@@ -17,23 +17,23 @@ type CaseStudy = {
 };
 
 const caseStudies: CaseStudy[] = [
-    {
-        client: "One Message Foundation",
-        channelName: "One Message Foundation",
-        channelLink: "https://www.youtube.com/@OneMessageFoundation",
-        subscribers: "1.28M subscribers",
-        problem:
-            "Client’s YouTube Shorts were not gaining significant traction, with most videos averaging under 10,000 views.",
-        solution:
-            "I crafted a high-impact edit with fast-paced transitions, subtitles, and a strong opening hook to grab attention.",
-        result:
-            "The video gained over 120,000 views — more than 100K higher than their typical reach.",
-        stats: "Before: ~9K views | After: 120K+ views",
-        link: "https://youtube.com/shorts/O2NPZbiN0bY?si=ecxCp0B4J8OQpf-n",
-        testimonial:
-            "“Your editing took our content to a whole new level. The engagement blew up!”",
-        image: "/case1f.png"
-    },
+    // {
+    //     client: "One Message Foundation",
+    //     channelName: "One Message Foundation",
+    //     channelLink: "https://www.youtube.com/@OneMessageFoundation",
+    //     subscribers: "1.28M subscribers",
+    //     problem:
+    //         "Client’s YouTube Shorts were not gaining significant traction, with most videos averaging under 10,000 views.",
+    //     solution:
+    //         "I crafted a high-impact edit with fast-paced transitions, subtitles, and a strong opening hook to grab attention.",
+    //     result:
+    //         "The video gained over 120,000 views — more than 100K higher than their typical reach.",
+    //     stats: "Before: ~9K views | After: 120K+ views",
+    //     link: "https://youtube.com/shorts/O2NPZbiN0bY?si=ecxCp0B4J8OQpf-n",
+    //     testimonial:
+    //         "“Your editing took our content to a whole new level. The engagement blew up!”",
+    //     image: "/case1f.png"
+    // },
     {
         client: "Erick Ronaldo",
         channelName: "Erick Ronaldo",
