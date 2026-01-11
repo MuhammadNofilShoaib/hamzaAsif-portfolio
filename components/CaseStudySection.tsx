@@ -34,23 +34,23 @@ const caseStudies: CaseStudy[] = [
     //         "“Your editing took our content to a whole new level. The engagement blew up!”",
     //     image: "/case1f.png"
     // },
-    {
-        client: "Erick Ronaldo",
-        channelName: "Erick Ronaldo",
-        channelLink: "https://www.youtube.com/@ErickRonaldo",
-        subscribers: "386K followers",
-        problem:
-            "Erick’s Instagram reels usually received low traction, stuck around 2–3K views.",
-        solution:
-            "I added bold text animation, cinematic music, and fast-paced transitions to create a highly shareable reel.",
-        result:
-            "The reel organically hit 75,000+ views and drove profile growth.",
-        stats: "Before: ~100K views | After: 300K+ views",
-        link: "https://www.instagram.com/reel/DHuGgtbxQrM/?utm_source=ig_web_copy_link",
-        testimonial:
-            "“The response was insane. Everyone loved the pacing and look — best reel performance so far!”",
-        image: "/case2f.png"
-    },
+    // {
+    //     client: "Erick Ronaldo",
+    //     channelName: "Erick Ronaldo",
+    //     channelLink: "https://www.youtube.com/@ErickRonaldo",
+    //     subscribers: "386K followers",
+    //     problem:
+    //         "Erick’s Instagram reels usually received low traction, stuck around 2–3K views.",
+    //     solution:
+    //         "I added bold text animation, cinematic music, and fast-paced transitions to create a highly shareable reel.",
+    //     result:
+    //         "The reel organically hit 75,000+ views and drove profile growth.",
+    //     stats: "Before: ~100K views | After: 300K+ views",
+    //     link: "https://www.instagram.com/reel/DHuGgtbxQrM/?utm_source=ig_web_copy_link",
+    //     testimonial:
+    //         "“The response was insane. Everyone loved the pacing and look — best reel performance so far!”",
+    //     image: "/case2f.png"
+    // },
 ];
 
 const CaseStudySection = () => {

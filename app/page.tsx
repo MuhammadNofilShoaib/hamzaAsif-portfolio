@@ -56,11 +56,11 @@ const videos = [
     tags: ["Video Editing", "Motion Graphics"],
 
   },
-  {
-    title: "Steal This: The Exact Playbook 3 Fitness Creators Used to Blow Up",
-    embedUrl: "https://www.youtube.com/embed/Rlftu8i6gLY?si=gt9jJsXPN6c5UYjz",
-    tags: ["Video Editing", "Motion Graphics"],
-  },
+  // {
+  //   title: "Steal This: The Exact Playbook 3 Fitness Creators Used to Blow Up",
+  //   embedUrl: "https://www.youtube.com/embed/Rlftu8i6gLY?si=gt9jJsXPN6c5UYjz",
+  //   tags: ["Video Editing", "Motion Graphics"],
+  // },
 
   // Add more videos here as needed
 ];
@@ -136,10 +136,10 @@ export default function Home() {
       <hr className="opacity-30" />
 
       <section>
-        <CaseStudySection/>
+        {/* <CaseStudySection/> */}
       </section>
 
-      <hr className="opacity-30" />
+      {/* <hr className="opacity-30" /> */}
 
 
 
