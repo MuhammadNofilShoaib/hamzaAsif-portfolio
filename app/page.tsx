@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import CaseStudySection from "@/components/CaseStudySection";
+// import CaseStudySection from "@/components/CaseStudySection";
 import Feedbacks from "@/components/Feedbacks";
 import Image from "next/image";
 import Link from "next/link";
