@@ -8,7 +8,7 @@ const Header = () => {
             <nav className="flex items-center justify-between w-full md:w-[90%] max-w-6xl mx-auto bg-[#0d0d0d]/70 backdrop-blur-md border border-neutral-800 md:rounded-full px-6 py-6 md:py-3 md:mt-4 fixed z-50">
                 {/* Logo */}
 
-                <h1 className="text-3xl  font-bold text-blue-600 italic font-serif" style={{ textShadow: "1px 1px 0px white" }}>ha.</h1>
+                <Link href="/" className="text-3xl  font-bold text-blue-600 italic font-serif" style={{ textShadow: "1px 1px 0px white" }}>ha.</Link>
                 {/* Nav Links */}
                 <div className="hidden md:flex gap-4 text-[12px] lg:gap-8 text-white lg:text-sm font-medium">
                     <Link href="#about" className="hover:text-white/60 cursor-pointer transition text-[15px]">About</Link>

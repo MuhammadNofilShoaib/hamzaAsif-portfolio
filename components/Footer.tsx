@@ -27,7 +27,18 @@ function Footer() {
         ))
       }
     </div>
-    <h1 className="flex justify-center items-center gap-3 "><FaLaptop className='scale-[1.5]'/>Built by <Link href="https://www.instagram.com/real_nofil/" target='_blank' className='hover:underline underline-offset-4 font-extrabold tracking-widest'>@real_nofil</Link></h1>
+    <h1 className="flex justify-center items-center gap-3">
+  <FaLaptop className='scale-[1.5]'/> 
+  Built by ~
+  <a 
+    href="https://wa.me/923012747872" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="hover:underline underline-offset-4 font-extrabold tracking-widest"
+  >
+  Nofil Shoaib
+  </a>
+</h1>
     </div>
   )
 }
