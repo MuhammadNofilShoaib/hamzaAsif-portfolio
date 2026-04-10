@@ -722,7 +722,7 @@ export const niches = [
   },
 
   {
-    slug: "personal branding",
+    slug: "personal-branding",
     name: "Personal Branding",
     videos: [],
     shorts: [
