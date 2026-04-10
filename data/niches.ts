@@ -129,10 +129,6 @@ export const niches = [
         embedUrl: "https://drive.google.com/file/d/1SAZcMrcZFxbHfKC1ibOR4pNCL7Md3r9v/preview",
       },
       {
-        title: "UGC Short 21",
-        embedUrl: "https://drive.google.com/file/d/1SAZcMrcZFxbHfKC1ibOR4pNCL7Md3r9v/preview",
-      },
-      {
         title: "UGC Short 22",
         embedUrl: "https://drive.google.com/file/d/11gieZkukkXs5seZ5SxRCUbvqutF6BhyR/preview",
       },
@@ -142,14 +138,6 @@ export const niches = [
       },
       {
         title: "UGC Short 24",
-        embedUrl: "https://drive.google.com/file/d/1hOD7Mugttrm0IfHyaBypNCUa3gkHTRhs/preview",
-      },
-      {
-        title: "UGC Short 25",
-        embedUrl: "https://drive.google.com/file/d/1hOD7Mugttrm0IfHyaBypNCUa3gkHTRhs/preview",
-      },
-      {
-        title: "UGC Short 26",
         embedUrl: "https://drive.google.com/file/d/1hOD7Mugttrm0IfHyaBypNCUa3gkHTRhs/preview",
       },
       {
@@ -203,11 +191,6 @@ export const niches = [
         embedUrl: "https://drive.google.com/file/d/1vLkAX8fv-AdrTALSMjw5kidXhXPbbZnK/preview",
         tags: ["trading"],
       },
-      {
-        title: "Trading 5",
-        embedUrl: "https://drive.google.com/file/d/1vLkAX8fv-AdrTALSMjw5kidXhXPbbZnK/preview",
-        tags: ["trading"],
-      },
 
     ],
     shorts: [],
@@ -219,11 +202,6 @@ export const niches = [
     videos: [
       {
         title: "Talking Head 1",
-        embedUrl: "https://drive.google.com/file/d/1I96mZVpl0Gsv3ISMWcnacdq-TeVax2AZ/preview",
-        tags: ["talking head"],
-      },
-      {
-        title: "Talking Head 2",
         embedUrl: "https://drive.google.com/file/d/1I96mZVpl0Gsv3ISMWcnacdq-TeVax2AZ/preview",
         tags: ["talking head"],
       },
@@ -362,10 +340,6 @@ export const niches = [
         title: "Podcast Short 5",
         embedUrl: "https://drive.google.com/file/d/1eeiz-ofLGimbailSIFQ1aAU3C8QhLTHv/preview",
       },
-      {
-        title: "Podcast Short 6",
-        embedUrl: "https://drive.google.com/file/d/1eeiz-ofLGimbailSIFQ1aAU3C8QhLTHv/preview",
-      }
     ]
   },
 
@@ -592,10 +566,6 @@ export const niches = [
         embedUrl: "https://drive.google.com/file/d/144xGGx0FWDye5fWXPCpx-j4cDGEIdLwM/preview",
       },
       {
-        title: "Ad Short 3",
-        embedUrl: "https://drive.google.com/file/d/144xGGx0FWDye5fWXPCpx-j4cDGEIdLwM/preview",
-      },
-      {
         title: "Ad Short 4",
         embedUrl: "https://drive.google.com/file/d/1qwX9Ebn0o6ZSL5pT6yt_9POhsQR-ivRX/preview",
       },
@@ -692,10 +662,6 @@ export const niches = [
       },
       {
         title: "Finance Short 5",
-        embedUrl: "https://drive.google.com/file/d/16w3OXCMq2UpNym83-FfgGdiAasbpvmEz/preview",
-      },
-      {
-        title: "Finance Short 6",
         embedUrl: "https://drive.google.com/file/d/10m956X9d2YLgYVosQaRMl5Q0agvtinAD/preview",
       }
     ]
@@ -715,16 +681,8 @@ export const niches = [
         embedUrl: "https://drive.google.com/file/d/15GJP5TMSyXZeg8wrmMANrfqubpWTFISy/preview",
       },
       {
-        title: "Educational Short 3",
-        embedUrl: "https://drive.google.com/file/d/1KAJI7_vvvlfyCMHktwPL7Wclof5fXUgc/preview",
-      },
-      {
         title: "Educational Short 4",
         embedUrl: "https://drive.google.com/file/d/1t3Ezt27P3B5Z5Tw_5cZkTTfdLo0MJ59J/preview",
-      },
-      {
-        title: "Educational Short 5",
-        embedUrl: "https://drive.google.com/file/d/1ZgdmxF1T8fOSyihQg6v0wI2bKkMvpmlu/preview",
       },
       {
         title: "Educational Short 6",
@@ -734,7 +692,6 @@ export const niches = [
         title: "Educational Short 7",
         embedUrl: "https://drive.google.com/file/d/19_160Ko5ZSBaqhjeMXu3QrGLnpqcOKA4/preview",
       }, 
-     
       {
         title: "Educational Short 9",
         embedUrl: "https://drive.google.com/file/d/15bQadKc7zcEsph0Wq19SGWHlwmz6aqFv/preview",
