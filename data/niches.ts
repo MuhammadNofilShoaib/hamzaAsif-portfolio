@@ -193,7 +193,16 @@ export const niches = [
       },
 
     ],
-    shorts: [],
+    shorts: [
+      {
+        title: "Trading Short 1",
+        embedUrl: "https://drive.google.com/file/d/1J3fFlYpxIa-dcxbJHW6WoriZUtqvbg7W/preview",
+      },
+      {
+        title: "Trading Short 2", 
+        embedUrl: "https://drive.google.com/file/d/1ghaMWYhpCYWDN2CuQAP8lDKzYd-XeyQy/preview",
+      }
+    ],
   },
 
   {
@@ -290,6 +299,14 @@ export const niches = [
       {
         title: "Street Interview Short 5",
         embedUrl: "https://drive.google.com/file/d/1YioqRkA5zTaO8lTGAlovqAzLUcp3KPdw/preview",
+      },
+      {
+        title: "Street Interview Short 6",
+        embedUrl: "https://drive.google.com/file/d/1o9T2G03zFwbgNfcYR5173hnqc6UqdaTA/preview",
+      },
+      {
+        title: "Street Interview Short 7",
+        embedUrl: "https://drive.google.com/file/d/1RDXdmn2htlDidPLtrkqZyQIhcKpI-d0N/preview",
       }
     ]
   },
@@ -609,6 +626,11 @@ export const niches = [
         title: "Real Estate 1",
         embedUrl: "https://drive.google.com/file/d/1u3hoYz7BvGkrGG6kK4PgIxZtvzIW23Em/preview",
         tags: ["real estate"],
+      },
+      {
+        title: "Real Estate 2",
+        embedUrl: "https://drive.google.com/file/d/1-YaOapW0fdPPu14vNnlmV6KIFspj2ayQ/preview",
+        tags: ["real estate"],
       }
     ],
     shorts: [
@@ -695,6 +717,30 @@ export const niches = [
       {
         title: "Educational Short 9",
         embedUrl: "https://drive.google.com/file/d/15bQadKc7zcEsph0Wq19SGWHlwmz6aqFv/preview",
+      }
+    ]
+  },
+
+  {
+    slug: "personal branding",
+    name: "Personal Branding",
+    videos: [],
+    shorts: [
+      {
+        title: "Personal Branding Short 1",
+        embedUrl: "https://drive.google.com/file/d/1WhTwaaOhBAOot0RO0aEmqAkJOjC0-3M6/preview",
+      },
+      {
+        title: "Personal Branding Short 2",
+        embedUrl: "https://drive.google.com/file/d/1xNFhV6FI4ZddxZCebYg2uKfq5jG4AInn/preview",
+      },
+      {
+        title: "Personal Branding Short 3",
+        embedUrl: "https://drive.google.com/file/d/15fSqvim6JVOTYCeehG4suIDoIVhzwDb6/preview",
+      },
+      {
+        title: "Personal Branding Short 4",
+        embedUrl: "https://drive.google.com/file/d/1_3xuAXNBW-ZzESLTu_ssvhDlMWcAVo4f/preview",
       }
     ]
   }

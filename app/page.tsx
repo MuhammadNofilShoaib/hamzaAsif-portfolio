@@ -30,17 +30,9 @@ const creators = [
     link: "https://www.instagram.com/twindentists/",
   },
   {
-    name: "Erick Ronaldo",
-    image: "/5up.jpg",
-  },
-  {
     name: "John Savage Crypto",
     image: "/6up.jpg",
     link: "https://www.youtube.com/@johnsavagefuture/videos",
-  },
-  {
-    name: "One Message Foundation",
-    image: "/omf.jpg",
   },
   {
     name: "Chris Kubby",
