@@ -338,7 +338,7 @@ export default function VideoTestimonials() {
                 <div className="p-6 bg-zinc-900">
                   <div className="flex justify-between items-center">
                     <div>
-                      <p className="text-white font-semibold text-xl">– Client</p>
+                      <p className="text-white font-semibold text-xl">– {video.name}</p>
                       {video.quote && (
                         <p className="text-emerald-400 text-sm mt-1 line-clamp-2">“{video.quote}”</p>
                       )}
