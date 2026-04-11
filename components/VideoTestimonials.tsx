@@ -218,31 +218,31 @@ type VideoTestimonial = {
 const videoTestimonials: VideoTestimonial[] = [
   {
     id: 1,
-    name: "Hannah Scott",
+    name: "Julie",
     embedLink: "https://drive.google.com/file/d/1cOgv0oiqoeo5JVc7iwsVYLf-7O-BnFPv/preview",
     quote: "No rush but thank you ✨ you’re amazing!",
   },
   {
     id: 2,
-    name: "Client Name",
+    name: "Abbott",
     embedLink: "https://drive.google.com/file/d/12Yxh0Xby7u7UV_TtA0FrIW-Hv6p1hmqD/preview",
     quote: "Working with Hamza was such a great experience...",
   },
   {
     id: 3,
-    name: "Client Name",
+    name: "Tomas",
     embedLink: "https://drive.google.com/file/d/1F1UgeBbHOu6iFoWgXY92SBLqFad-OyE9/preview",
     quote: "Working with Hamza was such a great experience...",
   },
   {
     id: 4,
-    name: "Client Name",
+    name: "Philipp",
     embedLink: "https://drive.google.com/file/d/1t1uV4OJr_T8CZjChWUQvMRjV2W3Qe103/preview",
     quote: "Working with Hamza was such a great experience...",
   },
   {
     id: 5,
-    name: "Client Name",
+    name: "Phillip",
     embedLink: "https://drive.google.com/file/d/1zQ2a3B0bAARa7TXqCArzpCcpViZesCm5/preview",
     quote: "Working with Hamza was such a great experience...",
   },
@@ -318,7 +318,7 @@ export default function VideoTestimonials() {
                 className="group relative w-[380px] md:w-[420px] bg-zinc-900 rounded-3xl overflow-hidden shadow-2xl border border-zinc-800/70 flex-shrink-0 cursor-pointer hover:scale-[1.03] transition-all duration-300"
               >
                 {/* Video Preview (Drive Embed) */}
-                <div className="relative aspect-video bg-black rounded-t-3xl overflow-hidden">
+                <div className="relative aspect-[1.5/2] bg-black rounded-t-3xl overflow-hidden">
                   <iframe
                     src={video.embedLink}
                     className="w-full h-full"

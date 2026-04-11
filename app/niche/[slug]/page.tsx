@@ -48,14 +48,23 @@ export default async function NichePage({
           <>
             <h2 className="text-2xl font-semibold">Shorts</h2>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {niche.shorts.map((short) => (
                 <div key={short.title} className="aspect-[9/16]">
-                  <iframe
+                  {/* <iframe
                     className="w-full h-full rounded-xl"
                     src={short.embedUrl}
                     allowFullScreen
-                  />
+                  /> */}
+                  <div className="w-full max-w-[300px] mx-auto">
+                    <div className="relative w-full h-[80vh] md:h-[500px] rounded-xl overflow-hidden">
+                      <iframe
+                        className="absolute top-0 left-0 w-full h-full"
+                        src={short.embedUrl}
+                        allowFullScreen
+                      />
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>

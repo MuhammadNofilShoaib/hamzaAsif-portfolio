@@ -3,12 +3,52 @@
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 
+const names = [
+  "Jessica",
+  "Lochlyn",
+  "Vanja",
+  "Philipp",
+  "jake",
+  "Ola",
+  "Philipp",
+  "Abbott",
+  "Phillip",
+  "Julie",
+  "Philipp",
+  "Abbott",
+  "Natassia",
+  "Jessica",
+  "Jessica",
+  "Philipp",
+  "Micheal",
+  "Micheal",
+  "Micheal",
+  "Micheal",
+  "Micheal",
+  "Micheal",
+  "Micheal",
+  "Matty",
+  "Micheal",
+  "Micheal",
+  "Micheal",
+  "Cameron",
+  "Cameron",
+  "Cameron",
+  "Cameron",
+  "Cameron",
+  "Cameron",
+  "Cameron",
+  "Cameron",
+  "Cameron",
+  "Cameron",
+];
+
 
 const totalImages = 37; // 👈 change this to your total screenshots
 
 const testimonials = Array.from({ length: totalImages }, (_, i) => ({
   id: i + 1,
-  name: "Client",
+  name: names[i] || "Client", // fallback if name missing
   image: `/${i + 1}.jpg`,
 }));
 
