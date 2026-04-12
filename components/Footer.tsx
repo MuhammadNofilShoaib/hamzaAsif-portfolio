@@ -27,7 +27,7 @@ function Footer() {
         ))
       }
     </div>
-    <h1 className="flex justify-center items-center gap-3">
+    {/* <h1 className="flex justify-center items-center gap-3">
   <FaLaptop className='scale-[1.5]'/> 
   Built by ~
   <a 
@@ -38,7 +38,7 @@ function Footer() {
   >
   Nofil Shoaib
   </a>
-</h1>
+</h1> */}
     </div>
   )
 }
