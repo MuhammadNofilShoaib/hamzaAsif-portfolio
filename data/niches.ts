@@ -34,11 +34,6 @@ export const niches = [
         embedUrl: "https://drive.google.com/file/d/1pYt8NsQ-m5YQuU2qREnmQdz7jGp8dLQQ/preview",
         tags: ["Vlog", "Daily life"],
       },
-      {
-        title: "20 sec intro",
-        embedUrl: "https://drive.google.com/file/d/1YWwPKukXjPy6oQOd1jDypXK_YKUP0h1Y/preview",
-        tags: ["Vlog", "Daily life"],
-      },
     ],
     shorts: [],
   },
