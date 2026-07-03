@@ -312,26 +312,41 @@ export const niches = [
     videos: [
       {
         title: "Podcast 1",
-        embedUrl: "https://drive.google.com/file/d/1iy7sb9qe2e9nG1rRG9pk1rs9RzFDdLzY/preview",
+        embedUrl: "https://drive.google.com/file/d/19qnf2Rwv3bHfxzGQRuhzaL9AtwJIOlHJ/preview",
         tags: ["podcast"],
       },
       {
         title: "Podcast 2",
-        embedUrl: "https://drive.google.com/file/d/1IhxhtvIqffbtCS-DBqJVy2mr5TidPxiP/preview",
+        embedUrl: "https://drive.google.com/file/d/1iy7sb9qe2e9nG1rRG9pk1rs9RzFDdLzY/preview",
         tags: ["podcast"],
       },
       {
         title: "Podcast 3",
-        embedUrl: "https://drive.google.com/file/d/1IjEAFJEkO6_5jHDOy1Nw8aVXSZwmROky/preview",
+        embedUrl: "https://drive.google.com/file/d/1IhxhtvIqffbtCS-DBqJVy2mr5TidPxiP/preview",
         tags: ["podcast"],
       },
       {
         title: "Podcast 4",
+        embedUrl: "https://drive.google.com/file/d/1IjEAFJEkO6_5jHDOy1Nw8aVXSZwmROky/preview",
+        tags: ["podcast"],
+      },
+      {
+        title: "Podcast 5",
         embedUrl: "https://drive.google.com/file/d/1TLYCVX-_tvq07pG5q_ptyVp-C8xw23kM/preview",
+        tags: ["podcast"],
+      },
+      {
+        title: "Podcast 6",
+        embedUrl: "https://drive.google.com/file/d/1VyiRPr_f_P2fBSUkpT7UN5aU_IclJqep/preview",
+        tags: ["podcast"],
+      }, 
+      {
+        title: "Podcast 7", 
+        embedUrl: "https://drive.google.com/file/d/1nTnwdpewNY0acvL7dO-s__1iQYaMK75d/preview",
         tags: ["podcast"],
       }
     ],
-    shorts: [
+    shorts: [ 
       {
         title: "Podcast Short 1",
         embedUrl: "https://drive.google.com/file/d/1t4J8tY3DYYuRVvkxb91AAy5TyK4ZWA13/preview",
