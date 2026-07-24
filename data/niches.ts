@@ -34,6 +34,11 @@ export const niches = [
         embedUrl: "https://drive.google.com/file/d/1pYt8NsQ-m5YQuU2qREnmQdz7jGp8dLQQ/preview",
         tags: ["Vlog", "Daily life"],
       },
+      {
+        title: "Aleena Vlog",
+        embedUrl: "https://drive.google.com/file/d/1HNTLfYs2O8_jo-asuKf6JTkoaZFFQE6c/preview",
+        tags: ["Vlog", "Daily life"],
+      },
     ],
     shorts: [],
   },
