@@ -10,7 +10,7 @@ const links = [
     },
     {
         icon: <FaInstagram className='scale-[2] hover:opacity-75 duration-300 ease-in-out' />,
-        link: "https://www.instagram.com/hamza_works_2004"
+        link: "https://www.instagram.com/hamzaasifwork?igsh=amd0cG02bm5nZjc4"
     },
 ]
 
