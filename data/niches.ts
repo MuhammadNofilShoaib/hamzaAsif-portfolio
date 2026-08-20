@@ -44,10 +44,6 @@ export const niches = [
     videos: [],
     shorts: [
       {
-        title: "UGC Short 1",
-        embedUrl: "https://drive.google.com/file/d/1RskgKmBo6COMhL2s3LzY_8zrqxmTZAHT/preview",
-      },
-      {
         title: "UGC Short 2",
         embedUrl: "https://drive.google.com/file/d/1MqYN8FlMXSsWt_1Z2qz_601AvEuI-0w4/preview",
       },
