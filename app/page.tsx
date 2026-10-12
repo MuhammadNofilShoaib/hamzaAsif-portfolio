@@ -7,6 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
 import CreatorsSlider from "@/components/CreatorsSlider";
 import NicheButtons from "@/components/NicheButtons";
 import VideoTestimonials from "@/components/VideoTestimonials";
+import TestimonialsGallery from "@/components/TestimonialsGallery";
 
 const creators = [
   {
@@ -443,6 +444,12 @@ export default function Home() {
         <Feedbacks />
 
       </section>
+
+      <section>
+        <TestimonialsGallery />
+      </section>
+
+      
 
       <VideoTestimonials />
 

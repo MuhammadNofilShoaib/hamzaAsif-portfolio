@@ -39,6 +39,16 @@ export const niches = [
         embedUrl: "https://drive.google.com/file/d/1HNTLfYs2O8_jo-asuKf6JTkoaZFFQE6c/preview",
         tags: ["Vlog", "Daily life"],
       },
+      {
+        title: "Pink Bronko",
+        embedUrl: "https://drive.google.com/file/d/18B6zS_jKkrRQ37KuoZ4WrsulUGExAiwZ/preview",
+        tags: ["Vlog", "Daily life"]
+      },
+      {
+        title: "Pink Bronko V2",
+        embedUrl: "https://drive.google.com/file/d/19mMaeUhH58KvOO8cP_KOdBv0Dc1b7X2X/preview",
+        tags: ["Vlog", "Daily life"]
+      }
     ],
     shorts: [],
   },
@@ -159,7 +169,123 @@ export const niches = [
       {
         title: "UGC Short 32",
         embedUrl: "https://drive.google.com/file/d/1-XWnANx1F8dbT-KIL-sbcT95uxbcVuv8/preview",
-      }
+      },
+      {
+        title: "UGC Short 33",
+        embedUrl: "https://drive.google.com/file/d/1fjw6KorTwQINkdsxJdAgmSSKVyPkA7g5/preview",
+      },
+      {
+        title: "UGC Short 34",
+        embedUrl: "https://drive.google.com/file/d/1N-IqDzd3V_kSu2k0aZcv8JLGiinkeMdS/preview",
+      },
+      {
+        title: "UGC Short 35",
+        embedUrl: "https://drive.google.com/file/d/1HmjP1LFH8SVJ7oK-XRxADZXTxh-ClagW/preview",
+      },
+      {
+        title: "UGC Short 36",
+        embedUrl: "https://drive.google.com/file/d/1k53EIGA7iptNidNosT--UAX1NByNDcHA/preview",
+      },
+      {
+        title: "UGC Short 37",
+        embedUrl: "https://drive.google.com/file/d/1LemUFJhOTIFJQaBdlHKoKxkluDirvc1J/preview",
+      },
+      {
+        title: "UGC Short 38",
+        embedUrl: "https://drive.google.com/file/d/1LLi6CfNBy6-zIynBHQcqR4rNo4xcgdMt/preview",
+      },
+      {
+        title: "UGC Short 39",
+        embedUrl: "https://drive.google.com/file/d/1s-jv0iPG69ffw8eUhlhDVFFGRbW5HlAh/preview",
+      },
+      {
+        title: "UGC Short 40",
+        embedUrl: "https://drive.google.com/file/d/1DlVMgXPmBHd3p0avQonOoPnrMgt0eyUO/preview",
+      },
+      {
+        title: "UGC Short 41",
+        embedUrl: "https://drive.google.com/file/d/1BbVyZ0VJi0EgZZWGvNIE1QkMGm3TmC_w/preview",
+      },
+      {
+        title: "UGC Short 42",
+        embedUrl: "https://drive.google.com/file/d/1ZP3lQ4OxjCJDRA_msba7V0vlYW3QkhzJ/preview",
+      },
+      {
+        title: "UGC Short 43",
+        embedUrl: "https://drive.google.com/file/d/15g6xWdoI_JrtwJe2xL7U1UGZ-cy4UZWh/preview",
+      },
+      {
+        title: "UGC Short 44",
+        embedUrl: "https://drive.google.com/file/d/1cLSkU2_gnohlZU0hPxoYEF-OsdmCUhGf/preview",
+      },
+      {
+        title: "UGC Short 45",
+        embedUrl: "https://drive.google.com/file/d/1F5qBAsWLf1L53kVgSkSTh33rzzS0Vc06/preview",
+      },
+      {
+        title: "UGC Short 46",
+        embedUrl: "https://drive.google.com/file/d/1-Nvy2c5w6TvbtkfV8bNNriaPXPr8bQlV/preview",
+      },
+      {
+        title: "UGC Short 47",
+        embedUrl: "https://drive.google.com/file/d/1YNr3nYTZcD86_h0Ko32ReA6S7xEvf0bN/preview",
+      },
+      {
+        title: "UGC Short 48",
+        embedUrl: "https://drive.google.com/file/d/1SydXdgxbAVUK16gu7DlWDklg5cOpf5wV/preview",
+      },
+      {
+        title: "UGC Short 49",
+        embedUrl: "https://drive.google.com/file/d/1RSIb7WGZ_6bIuba7GkI_JBBY3_vvRywp/preview",
+      },
+      {
+        title: "UGC Short 50",
+        embedUrl: "https://drive.google.com/file/d/1EzRBJGBcbKZnDsOtjk0MAomYiVw2ZJjY/preview",
+      },
+      {
+        title: "UGC Short 51",
+        embedUrl: "https://drive.google.com/file/d/1lsQM1tKGNL2mwDvMUOlJ3xfHwP_f3ne8/preview",
+      },
+      {
+        title: "UGC Short 52",
+        embedUrl: "https://drive.google.com/file/d/10snl3sKeOkoMb8nGlpFgie9yD_nfvZtN/preview",
+      },
+      {
+        title: "UGC Short 53",
+        embedUrl: "https://drive.google.com/file/d/175pdNzzDnTrgnSSMzWiLVcbz3FF6h2sT/preview",
+      },
+      {
+        title: "UGC Short 54",
+        embedUrl: "https://drive.google.com/file/d/1fJmr-fM-Lb6BzTO7vMNzDEaEqgHDgQyi/preview",
+      },
+      {
+        title: "UGC Short 55",
+        embedUrl: "https://drive.google.com/file/d/1J49eDOKJVPGKo2q78XPmyrrLpBP4ryCn/preview",
+      },
+      {
+        title: "UGC Short 56",
+        embedUrl: "https://drive.google.com/file/d/1wzxNQx6GWAu8NR4F-xRIE5bKEyBnM8eR/preview",
+      },
+      {
+        title: "UGC Short 57",
+        embedUrl: "https://drive.google.com/file/d/1pFW594gGvz8ABESL7mj2GUOyxWi-7jNx/preview",
+      },
+      {
+        title: "UGC Short 58",
+        embedUrl: "https://drive.google.com/file/d/1PjFWgg0GL_CVJaRkaEJMpCYWGrcODlfC/preview",
+      },
+      {
+        title: "UGC Short 59",
+        embedUrl: "https://drive.google.com/file/d/1Vn88jjA4R5fWQtRO99w4mZwbYqygC5FG/preview",
+      },
+      {
+        title: "UGC Short 60",
+        embedUrl: "https://drive.google.com/file/d/1W-IK7i1gav-LaRw-m-ndqwhYCZqR1syS/preview",
+      },
+      {
+        title: "UGC Short 61",
+        embedUrl: "https://drive.google.com/file/d/1qb063C1HSgoLxWli9U83awtY8Xsc-e5k/preview",
+      },
     ],
   },
 
@@ -195,7 +321,7 @@ export const niches = [
         embedUrl: "https://drive.google.com/file/d/1J3fFlYpxIa-dcxbJHW6WoriZUtqvbg7W/preview",
       },
       {
-        title: "Trading Short 2", 
+        title: "Trading Short 2",
         embedUrl: "https://drive.google.com/file/d/1ghaMWYhpCYWDN2CuQAP8lDKzYd-XeyQy/preview",
       }
     ],
@@ -340,14 +466,40 @@ export const niches = [
         title: "Podcast 6",
         embedUrl: "https://drive.google.com/file/d/1VyiRPr_f_P2fBSUkpT7UN5aU_IclJqep/preview",
         tags: ["podcast"],
-      }, 
+      },
       {
-        title: "Podcast 7", 
+        title: "Podcast 7",
         embedUrl: "https://drive.google.com/file/d/1nTnwdpewNY0acvL7dO-s__1iQYaMK75d/preview",
         tags: ["podcast"],
-      }
+      },
+      {
+        title: "Podcast 8",
+        embedUrl: "https://drive.google.com/file/d/1vAGVRqAugq5bM515yy6bcxHQiSAWQSWn/preview",
+        tags: ["podcast"],
+      },
+      {
+        title: "Podcast 9",
+        embedUrl: "https://drive.google.com/file/d/1WtFOQPricUv9sG3eXPpy-YGEFRAfW1o0/preview",
+        tags: ["podcast"],
+      },
+      {
+        title: "Podcast 10",
+        embedUrl: "https://drive.google.com/file/d/1tqw6y0UfSrYYmhwwyJxibg5CndIx9HCC/preview",
+        tags: ["podcast"],
+      },
+      {
+        title: "Podcast 11",
+        embedUrl: "https://drive.google.com/file/d/14mGpkUt8m_92E7y6v_Umpvv9Wtj_zlhp/preview",
+        tags: ["podcast"],
+      },
+      {
+        title: "Podcast 12",
+        embedUrl: "https://drive.google.com/file/d/19qnf2Rwv3bHfxzGQRuhzaL9AtwJIOlHJ/preview",
+        tags: ["podcast"],
+      },
+
     ],
-    shorts: [ 
+    shorts: [
       {
         title: "Podcast Short 1",
         embedUrl: "https://drive.google.com/file/d/1t4J8tY3DYYuRVvkxb91AAy5TyK4ZWA13/preview",
@@ -368,6 +520,10 @@ export const niches = [
         title: "Podcast Short 5",
         embedUrl: "https://drive.google.com/file/d/1eeiz-ofLGimbailSIFQ1aAU3C8QhLTHv/preview",
       },
+      {
+        title: "Podcast Short 6",
+        embedUrl: "https://drive.google.com/file/d/1IeDxEZ4uLxoBezn6teCRePN9T5cYuYVx/preview"
+      }
     ]
   },
 
@@ -381,7 +537,31 @@ export const niches = [
       {
         title: "Pharmaceutical Short 1",
         embedUrl: "https://drive.google.com/file/d/1_tPOeVu6U1dFnw1Fgl3alUBMCtD3AVQw/preview",
-      }
+      },
+      {
+        title: "Pharmaceutical Short 2",
+        embedUrl: "https://drive.google.com/file/d/18khfrswqtpdhLlmy64MBGi7-dYwHpYuJ/preview",
+      },
+      {
+        title: "Pharmaceutical Short 3",
+        embedUrl: "https://drive.google.com/file/d/1SNAqvrU8wCB__PdGtmOjFnVI9svfHoal/preview",
+      },
+      {
+        title: "Pharmaceutical Short 4",
+        embedUrl: "https://drive.google.com/file/d/1CoNeWHmSGzJlUOJ2EdAT4yHS7xzBF0-R/preview"
+      },
+      {
+        title: "Pharmaceutical Short 5",
+        embedUrl: "https://drive.google.com/file/d/1eYYaQ2RYNV0SXRbiD4miFjhNXxUtLUaQ/preview"
+      },
+      {
+        title: "Pharmaceutical Short 6",
+        embedUrl: "https://drive.google.com/file/d/1WkBkGv3TNnEmbaWeRCP88OSuR_adRP-6/preview"
+      },
+      {
+        title: "Pharmaceutical Short 7",
+        embedUrl: "https://drive.google.com/file/d/1RVo2LWhfbfXPz4nQHY63Sg-xeu1AUPYj/preview"
+      },
     ]
   },
 
@@ -724,7 +904,7 @@ export const niches = [
       {
         title: "Educational Short 7",
         embedUrl: "https://drive.google.com/file/d/19_160Ko5ZSBaqhjeMXu3QrGLnpqcOKA4/preview",
-      }, 
+      },
       {
         title: "Educational Short 9",
         embedUrl: "https://drive.google.com/file/d/15bQadKc7zcEsph0Wq19SGWHlwmz6aqFv/preview",
