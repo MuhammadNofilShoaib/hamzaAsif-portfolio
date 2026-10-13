@@ -3,6 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import Link from 'next/link';
 
+
 const links = [
     {
         icon: <FaXTwitter className='scale-[2] hover:opacity-75 duration-300 ease-in-out' />,
@@ -12,6 +13,7 @@ const links = [
         icon: <FaInstagram className='scale-[2] hover:opacity-75 duration-300 ease-in-out' />,
         link: "https://www.instagram.com/hamzaasifwork?igsh=amd0cG02bm5nZjc4"
     },
+    
 ]
 
 function Footer() {
@@ -26,6 +28,7 @@ function Footer() {
         ))
       }
     </div>
+    <a href="mailto:hamzaasifworks@gmail.com" className='flex justify-center items-center gap-3 italic font-sans hover:text-blue-600 duration-300'>hamzaasifworks@gmail.com</a>
     {/* <h1 className="flex justify-center items-center gap-3">
   <FaLaptop className='scale-[1.5]'/> 
   Built by ~

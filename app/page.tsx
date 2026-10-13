@@ -203,6 +203,11 @@ const creators = [
     image: "/vanja.jpg",
     link: "https://www.instagram.com/vanja.moves/",
   },
+  {
+    name: "Denny Dure",
+    image: "/denny.jpg",
+    link: "https://www.instagram.com/denny_dure/"
+  }
 ];
 
 // const videos = [
