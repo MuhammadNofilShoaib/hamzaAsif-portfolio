@@ -295,7 +295,7 @@ export default function Home() {
 
         <h2 className="text-5xl md:text-5xl font-semibold mb-5 capitalize text-center text-white">About me:</h2>
 
-        <h1 className="text-lg md:text-2xl text-white">{`Hi, I’m Hamza. I help creators save time and grow their business by taking care of the entire video editing process and creating high-retention videos that increase watch time and engagement.`}
+        <h1 className="text-lg md:text-2xl text-white">{`Hi, I’m Hamza, a content strategy partner for UGC creators and podcasters. I handle your editing, plan what to film, and turn every shoot into content that gets views and wins deals.`}
 
         </h1>
         <Link className="text-lg text-white md:text-[30px] font-semibold flex justify-center items-center gap-3 underline underline-offset-8 hover:no-underline duration-300" href="https://drive.google.com/drive/folders/1Pr60kkPSBncs_4wNHeEwNXM6BQPPyb3b?usp=drive_link">See Portfolio <span className="hover:-rotate-45 duration-300 ease-in-out"><FaArrowRight size={20} /></span></Link>

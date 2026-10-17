@@ -15,22 +15,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hamza Asif | Video Editor",
+  title: "Hamza Asif | Content Strategy Partner",
   description: "Helping creators boost watch time with high retention edits",
   icons: {
     icon: "/hamza.png",
   },
   openGraph: {
-    title: "Hamza Asif | Video Editor",
+    title: "Hamza Asif | Content Strategy Partner",
     description: "Helping creators boost watch time with high retention edits",
-    url: "https://hamzaedits.vercel.app/",
+    url: "https://www.hamzaasifworks.com/",
     siteName: "Hamza Asif Portfolio",
     images: [
       {
-        url: "https://hamzaedits.vercel.app/ha.png", // your preferred image URL
+        url: "https://www.hamzaasifworks.com/ha.png", // your preferred image URL
         width: 1200,
         height: 630,
-        alt: "Hamza Asif - Video Editor",
+        alt: "Hamza Asif - Content Strategy Partner",
       },
     ],
     locale: "en_US",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hamza Asif | Video Editor",
+    title: "Hamza Asif | Content Strategy Partner",
     description: "Helping creators boost watch time with high retention edits",
-    images: ["https://hamzaedits.vercel.app/ha.png"],
+    images: ["https://www.hamzaasifworks.com/ha.png"],
   },
 };
 
